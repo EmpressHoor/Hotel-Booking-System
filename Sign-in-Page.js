@@ -1,4 +1,17 @@
+
+
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+  
+        function menutoggle() {
+          if (menulist.style.maxHeight == "0px") {
+            menulist.style.maxHeight = "100vh";
+          } else {
+            menulist.style.maxHeight = "0px";
+          }
+        }
 // Function to handle form submission
+
 function handleSignup(event) {
     event.preventDefault(); // Prevent default form submission
   
@@ -19,15 +32,15 @@ function handleSignup(event) {
       localStorage.setItem('users', JSON.stringify(users));
   
       // Show success message
-      alert('Signup successful!');
+      alert('Signin successful!');
   
       // Reset form
-      document.getElementById('signupForm').reset();
+      document.getElementById('signinForm').reset();
     } else {
       alert('Local storage is not supported. Cannot store user data.');
     }
   }
   
   // Attach event listener to form submit
-  document.getElementById('signupForm').addEventListener('submit', handleSignup);
+  document.getElementById('signinForm').addEventListener('submit', handleSignup);
   
