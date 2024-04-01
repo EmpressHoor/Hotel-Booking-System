@@ -24,6 +24,7 @@ function sendOTP() {
 			otp_btn.addEventListener('click', () => {
 				if (otp_inp.value == otp_val) {
 					alert("Email address verified...");
+					window.location.replace("landing_page.html");
 				}
 				else {
 					alert("Invalid OTP");
