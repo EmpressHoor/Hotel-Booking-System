@@ -1,21 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>User Login</title>
-</head>
-<body>
-  <h1>User Login</h1>
-  <form id="loginForm">
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required><br>
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required><br>
-    <button type="submit">Login</button>
-  </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="Sign-up.css" />
+  </head>
+  <body>
+    <header>
+      <div class="content flex_space">
+        <div class="logo">
+          <img src="Capture.PNG" alt="" />
+        </div>
+        <div class="navlinks">
+          <ul id="menulist">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#pages">Pages</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><i class="fa fa-search"></i></li>
+            <li><button class="primary-btn">BOOK NOW</button></li>
+          </ul>
+          <span class="fa fa-bars" onclick="menutoggle()"></span>
+        </div>
+      </div>
+    </header>
 
-  <script src="Sign-up-Page.js"></script>
-  <script src="Sign-in-Page.js"></script>
-</body>
+    <div class="main">
+      <div class="detail">
+        <h1>Not Just A <span>Stay</span>,<br />A <span>Story</span> <br /></h1>
+        <p class="par">   
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+          Ex nostrum rem sunt debitis architecto eos quidem et,<br />
+          eum recusandae repellendus magni in maiores minima libero tempore
+          corporis, eius quo. <br />
+          Molestiae ipsa exercitationem eveniet vel nostrum earum cum vitae
+          aperiam repellat.
+        </p>
+        <button class="cn"><a href="#"></a>GET STARTED</button>
+
+        <div class="designForm">
+          <h2>Sign Up</h2>
+          <form action="emailotp.html" id="signupForm">
+          <input
+          type="text"
+          id="username"
+          placeholder="Username"
+          name="uname"
+          required
+        /><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="E-mail"
+              name="email"
+              required
+            /><br />
+            <input
+              type="password"
+              id="password1"
+              placeholder="Password"
+              name="password"
+              required
+            /><br />
+            <input
+            type="password"
+            id="password2"
+            placeholder="Confirm Password"
+            name="password"
+            required
+          /><br />
+            <button class="btn" type="submit">
+              Sign Up
+            </button>
+          </form>
+          <p class="link">
+            Already have an account
+            <br />
+            <a href="Sign-in-Page.html">Sign In</a> here
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="Sign-in-Page.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c533ddc913.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
+
