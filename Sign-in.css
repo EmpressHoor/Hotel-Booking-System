@@ -152,7 +152,7 @@
 .detail .cn{
     width: 160px;
     height: 40px;
-    background-color: #91b93a;
+    background-color: #b9890e;
     border: none;
     margin-bottom: 10px;
     margin-left: 15px;
@@ -171,7 +171,7 @@
 }
 
 .detail span{
-    color: #87bd10;
+    color: #b9890e;
     font-size: 60px;
 }
 
@@ -191,9 +191,8 @@
     width: 220px;
     font-family: sans-serif;
     text-align: center;
-    color: #91b93a;
+    color: white;
     font-size: 30px;
-    background-color: white;
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
@@ -202,7 +201,7 @@
     width: 230px;
     height: 35px;
     background: transparent;
-    border-bottom: 1px solid #91b93a;
+    border-bottom: 1px solid #b9890e;
     border-top: none;
     border-right: none;
     border-left: none;
@@ -224,7 +223,7 @@
 .btn{
     width: 220px;
     height: 40px;
-    background: #91b93a;
+    background: #137f83;
     border: none;
     margin-top: 20px;
     font-size: 18px;
@@ -233,8 +232,7 @@
     font-size: 15px;
 }
 .btn:hover{
-    background: white;
-    color: #162003;
+  background-color: #6d6c6d;
 }
 
 .btn a{
@@ -259,7 +257,7 @@
 
 .designForm .link a{
     text-decoration: none;
-    color:#91b93a ;
+    color:#137f83 ;
 }
 .liw{
     padding-top: 15px;
@@ -280,7 +278,7 @@
     cursor: pointer;
 }
 .icons ion-icon:hover{
-    color: #91b93a;
+    color: #137f83;
 }
 
 
