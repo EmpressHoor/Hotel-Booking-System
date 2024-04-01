@@ -44,18 +44,11 @@
         <div class="designForm">
           <h2>Sign Up</h2>
           <form action="emailotp.html" id="signupForm">
-            <input
-            type="text"
-            id="fname"
-            placeholder="First Name"
-            name="fname"
-            required
-          /><br />
           <input
           type="text"
-          id="lname"
-          placeholder="Last Name"
-          name="lname"
+          id="username"
+          placeholder="Username"
+          name="uname"
           required
         /><br />
             <input
@@ -67,11 +60,18 @@
             /><br />
             <input
               type="password"
-              id="password"
+              id="password1"
               placeholder="Password"
               name="password"
               required
             /><br />
+            <input
+            type="password"
+            id="password2"
+            placeholder="Confirm Password"
+            name="password"
+            required
+          /><br />
             <button class="btn" type="submit">
               Sign Up
             </button>
@@ -79,7 +79,7 @@
           <p class="link">
             Already have an account
             <br />
-            <a href="Sign-up-Page.html">Sign In</a> here
+            <a href="Sign-in-Page.html">Sign In</a> here
           </p>
         </div>
       </div>
