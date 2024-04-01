@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <link rel="stylesheet" href="Sign-in.css" />
+</head>
+<body>
+  <header>
+    <!-- Header content here -->
+  </header>
+
+  <div class="main">
+    <div class="detail">
+      <!-- Detail content here -->
+      <button class="cn" onclick="handleSignup(event)">GET STARTED</button>
+
+      <div class="designForm">
+        <h2>Sign In</h2>
+        <form action="LandingPage.html" id="loginForm">
+          <input
+            type="email"
+            id="email"
+            placeholder="E-mail"
+            name="email"
+            required
+          /><br />
+          <input
+            type="password"
+            id="password"
+            placeholder="Password"
+            name="password"
+            required
+          /><br />
+          <button class="btn" type="button" onclick="handleLogin(event)">
+            Sign In
+          </button>
+        </form>
+        <!-- Other form elements -->
+      </div>
+    </div>
+  </div>
+  <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+  <script src="Sign-up-in.js"></script>
+  <script
+    src="https://kit.fontawesome.com/c533ddc913.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
