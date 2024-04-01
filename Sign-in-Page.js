@@ -16,7 +16,6 @@ function handleSignup(event) {
     event.preventDefault(); // Prevent default form submission
   
     // Get form input values
-    const username = document.getElementById('username').value;
     const email = document.getElementById('email').value;
     const password = document.getElementById('password').value;
   
@@ -26,7 +25,7 @@ function handleSignup(event) {
       let users = JSON.parse(localStorage.getItem('users')) || [];
   
       // Add new user to the array
-      users.push({ username, email, password });
+      users.push({ email, password });
   
       // Store updated users array in local storage
       localStorage.setItem('users', JSON.stringify(users));
